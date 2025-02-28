@@ -29,6 +29,14 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/gateaway-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/gateaway-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/user-service" />
         <option name="gradleJvm" value="temurin-17" />
         <option name="modules">

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea15ff5b-5c3c-4b7e-9bf1-3545a9acc637" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/user-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/user-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/eureka-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/gateaway-service">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/user-service">
@@ -81,12 +84,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/config-data" />
       <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserServiceApplication (1)">
+  <component name="RunManager" selected="Application.UserServiceApplication">
     <configuration name="CarServiceApplication (1)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.car_service.CarServiceApplication" />
       <module name="car-service.main" />
