@@ -7,4 +7,4 @@ spring:
       uri: http://localhost:8081
 
   config:
-    import: configserver:http://localhost:8081
+    import: config-server:http://localhost:8081
