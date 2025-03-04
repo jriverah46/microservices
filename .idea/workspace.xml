@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea15ff5b-5c3c-4b7e-9bf1-3545a9acc637" name="Changes" comment="" />
+    <list default="true" id="ea15ff5b-5c3c-4b7e-9bf1-3545a9acc637" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/config-data/eureka-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/eureka-service.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +92,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserServiceApplication (2)">
+  <component name="RunManager" selected="Application.GatewayServiceApplication">
     <configuration name="CarServiceApplication (1)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.car_service.CarServiceApplication" />
       <module name="car-service.main" />
