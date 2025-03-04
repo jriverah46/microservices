@@ -1,4 +1,7 @@
 spring:
+  config:
+    import: configserver:http://localhost:8081
+
   application:
     name: gateway-service
   cloud:
@@ -6,5 +9,4 @@ spring:
       enabled: true
       uri: http://localhost:8081
 
-  config:
-    import: config-server:http://localhost:8081
+
