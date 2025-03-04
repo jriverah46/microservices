@@ -29,10 +29,10 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/gateaway-service" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/gateway-service" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/gateaway-service" />
+            <option value="$PROJECT_DIR$/gateway-service" />
           </set>
         </option>
       </GradleProjectSettings>
