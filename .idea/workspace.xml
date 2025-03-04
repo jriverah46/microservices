@@ -90,7 +90,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GatewayServiceApplication">
+  <component name="RunManager" selected="Application.UserServiceApplication (2)">
     <configuration name="CarServiceApplication (1)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.car_service.CarServiceApplication" />
       <module name="car-service.main" />
