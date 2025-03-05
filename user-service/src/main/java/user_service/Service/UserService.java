@@ -1,6 +1,8 @@
 package user_service.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import user_service.FeignClients.CarFeignClient;
@@ -38,10 +40,10 @@ public class UserService {
     }
 
     //connecting with the microservice car and getting the car list by user with restTemplate
-
+    @LoadBalanced
     public List<Car>carsByUser(Long idUser){
         List<Car>cars= restTemplate
-                .getForObject("http://localhost:8002/cars/user/"+idUser,List.class);
+                .getForObject("http://gateway-service/cars/user/"+idUser,List.class);
         return cars;
     }
 

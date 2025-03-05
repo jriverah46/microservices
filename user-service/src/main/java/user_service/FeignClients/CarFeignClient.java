@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import user_service.Models.Car;
 
-@FeignClient(name = "car-service",url = "http://localhost:8002")
+@FeignClient(name = "car-service")
 public interface CarFeignClient {
     @PostMapping("/cars")
     public Car save(@RequestBody Car car);
