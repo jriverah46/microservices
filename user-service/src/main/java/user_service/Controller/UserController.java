@@ -1,6 +1,8 @@
 package user_service.Controller;
 
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import user_service.Models.Car;
@@ -38,7 +40,7 @@ public class UserController {
 
         return ResponseEntity.ok(newuser);
     }
-
+    @CircuitBreaker(name="carsCB",fallbackMethod = "fallBackGetCars")
     @GetMapping("cars/{userId}")
     public ResponseEntity<List<Car>>getCarsByUser(@PathVariable("userId" ) Long userId){
         UserEntity user=userService.getUserById(userId);
@@ -55,9 +57,14 @@ public class UserController {
     }
 
     //method to save cars with feignClient
+    @CircuitBreaker(name="carsCB",fallbackMethod = "fallBackSaveCars")
     @PostMapping("/save-car/{userId}")
     public ResponseEntity<Car>saveCar(@PathVariable("userId") Long userId,@RequestBody Car car){
         Car newCar=userService.saveCar(userId,car);
         return ResponseEntity.ok(newCar);
+    }
+
+    private ResponseEntity<List<Car>>fallBackGetCars(@PathVariable ("userId") Long id,RuntimeException e){
+        return new ResponseEntity("user : "+ id+" has the cars in the mecanic", HttpStatus.OK);
     }
 }

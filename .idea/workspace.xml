@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea15ff5b-5c3c-4b7e-9bf1-3545a9acc637" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/gateway-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/FeignClients/CarFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/user_service/FeignClients/CarFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/user-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/user-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service /src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service /src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/user_service/Controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/user_service/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/user_service/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/user_service/config/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +82,17 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "/Users/joserivera/Desktop/Microservices",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.14959723"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/joserivera/Desktop/Microservices&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.14959723&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -97,7 +100,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserServiceApplication">
+  <component name="RunManager" selected="Application.ConfigServiceApplication">
     <configuration name="CarServiceApplication (1)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.car_service.CarServiceApplication" />
       <module name="car-service.main" />

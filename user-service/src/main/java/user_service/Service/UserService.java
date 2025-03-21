@@ -40,10 +40,10 @@ public class UserService {
     }
 
     //connecting with the microservice car and getting the car list by user with restTemplate
-    @LoadBalanced
+
     public List<Car>carsByUser(Long idUser){
         List<Car>cars= restTemplate
-                .getForObject("http://gateway-service/cars/user/"+idUser,List.class);
+                .getForObject("http://car-service/cars/user/"+idUser,List.class);
         return cars;
     }
 
@@ -53,5 +53,6 @@ public class UserService {
         Car newCar=carFeignClient.save(car);
         return newCar;
     }
+
 
 }
