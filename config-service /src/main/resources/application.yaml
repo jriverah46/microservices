@@ -7,7 +7,7 @@ spring:
         git:
           default-label: main
           uri: https://github.com/jriverah46/microservices
-          search-paths: config-data
+          search-paths: circuit-breaker
 
   application:
     name: config-service
